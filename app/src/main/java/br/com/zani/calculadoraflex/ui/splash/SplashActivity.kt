@@ -62,7 +62,7 @@ class SplashActivity : AppCompatActivity() {
 
         // Chama a proxima tela apos 3,5 segundos
         Handler().postDelayed({
-            val proximaTela = Intent(this@SplashActivity, FormActivity::class.java)
+            val proximaTela = Intent(this@SplashActivity, LoginActivity::class.java)
             startActivity(proximaTela)
             finish()
         }, TEMPO_AGUARDO_SPLASHSCREEN)
